@@ -8,9 +8,6 @@
     {% for field in form %}
       {{ field.label_tag }}<br>
       {{ field }}<br>
-      <!-- <h3>ユーザー名</h3> -->
-      <!-- <h3>パスワード</h3> -->
-      <!-- <h3>パスワード(確認用)</h3> -->
 
                   {% for error in field.errors %}
                     <p style="color: red">{{ error }}</p>

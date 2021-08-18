@@ -3,6 +3,6 @@ from . import views
 
 app_name='twcl'
 urlpatterns = [
-  path('signup/', views.signup, name='signup'),
-  path('/', views.showHome, name='home')
+  path('signup/', views.signup_view, name='signup'),
+  path('', views.show_home_view, name='home')
 ]
