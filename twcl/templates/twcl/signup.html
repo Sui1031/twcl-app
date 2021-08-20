@@ -9,9 +9,9 @@
       {{ field.label_tag }}<br>
       {{ field }}<br>
 
-                  {% for error in field.errors %}
-                    <p style="color: red">{{ error }}</p>
-                  {% endfor %}
+      {% for error in field.errors %}
+        <p style="color: red">{{ error }}</p>
+      {% endfor %}
 
     {% endfor %}
     <button type="submit">完了</button>
